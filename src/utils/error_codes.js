@@ -16,6 +16,6 @@ const SuccessCodes = Object.freeze({
 
 module.exports = {
     ClientErrorCodes,
-    ServerErrorCodes,
+    ServiceErrorCodes,
     SuccessCodes
 }

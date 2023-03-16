@@ -1,4 +1,4 @@
-const {ClientErrorCodes} = requie('../utils/error_codes');
+const {ClientErrorCodes} = require('../utils/error_codes');
 const validateCreateFlight = (req , res , next) => {
     if(
         !req.body.flightNumber ||
